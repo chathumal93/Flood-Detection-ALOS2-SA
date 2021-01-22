@@ -48,9 +48,9 @@ This below graph shows the method adopted in this approach. (Pre-Post/Post only)
 # Output
 The results will include the following;
 
-* Processed pre-event and post-event tif files. (In 2_Results Folder)
+* Processed pre-event and post-event tif/ post-event tif files. (In 2_Results Folder)
 * Threshold and majority filtered tif files. 
-* Detected Flood water shp file.
+* Detected Flood water/water shp file.
 
 ![](Images/Output_Structure.png)
 
