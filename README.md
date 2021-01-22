@@ -17,12 +17,7 @@ The following script can also be used to acquire ALOS-2 Data from the Optemis sy
 
 
 
-WhiteboxTools, and Orfeo toolbox were used in this script.
-
-Link to WhiteboxTools
-https://jblindsay.github.io/ghrg/WhiteboxTools/index.html
-
-Once the main script is running, it will find the latest Sentinel-1 Images over the defined time and region on interest. If the post-disaster data is not available, this main script will run automatically for pre-defined time intervals until it finds the Post-disaster images. Then the flood extraction is carried out according to the instruction of the Flood_OST_S1.py file. This file includes the main processing steps such as pre-post change image generation, thresholding, majority filtering, and raster polygonization.
+Then the flood extraction is carried out according to the instruction of the Flood_Module_ALOS2.py file. This file includes the main processing steps such as change image generation, thresholding, majority filtering, and raster polygonization. (For both cases : Pre-Post/ Post only)
 
 # Installation Steps
 
@@ -35,18 +30,7 @@ After the installation,install the libraries mentioned below using Anaconda prom
 
     pip install glob2 DateTime GDAL numpy whitebox pathlib rasterio pprint36 zipfile36 paramiko re2 pytest-shutil
 
---------------------------------------------------------------------------------------------------------------------------
-# Import all the libraries
-
-
-
-
-
-from Flood_Module_ALOS2 import ALOS2_post
-
-
-
-4. Running Scripts
+2. Running Scripts
 
 The main script (Realtime-Sentinel1-Flood-Mapping.ipynb) runs in jupyter notebook environment and the Flood_OST_S1.py can be placed in the same directory as the main script, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). 
 Then you can import the Flood_OST_S1 module to the main script. Sentinel1Flood is the class for the processing of the Sentinel-1 ARD data for flood detection.
