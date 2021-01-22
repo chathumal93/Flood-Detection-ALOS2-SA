@@ -30,8 +30,8 @@ After the installation,install the libraries mentioned below using Anaconda prom
 
 2. Running Scripts
 
-The two main scripts (Realtime-Sentinel1-Flood-Mapping.ipynb, ) runs in jupyter notebook environment and the Flood_Module_ALOS2.py can be placed in the same directory as the main scripts, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). 
-Then you can import the Flood_Module_ALOS2 module to the main scripts. ALOS2_pre_post and ALOS2_post are two classes for the processing of the ALOS-2 data for flood detection.
+The two main scripts (ALOS-2 Pre and Post image processing.ipynb and ALOS-2 Post image processing.ipynb) run in jupyter notebook environment and the Flood_Module_ALOS2.py can be placed in the same directory as the main scripts, or it can be placed in the Lib folder of the working anaconda environment (e.g.," C:\Users\User_name\Anaconda3\Lib"). 
+Then you can import the Flood_Module_ALOS2 module to the main scripts. ALOS2_pre_post and ALOS2_post are two classes for the processing of the ALOS-2 data for flood/water detection.
  
     from Flood_Module_ALOS2 import ALOS2_pre_post
     
@@ -46,7 +46,7 @@ This below graph shows the method adopted in this approach. (Pre-Post/Post only)
 # Output
 The results will include the following;
 
-* Processed pre-event and post-event tif files. (In 2.Results Folder)
+* Processed pre-event and post-event tif files. (In 2_Results Folder)
 * Threshold and majority filtered tif files. 
 * Detected Flood water shp file.
 
