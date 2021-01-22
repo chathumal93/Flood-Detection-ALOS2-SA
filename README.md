@@ -33,18 +33,31 @@ https://docs.anaconda.com/anaconda/install/
 
 After the installation,install the libraries mentioned below using Anaconda prompt.
 
-    pip install glob2 DateTime GDAL numpy whitebox pathlib APScheduler rasterio pprint36
+    pip install glob2 DateTime GDAL numpy whitebox pathlib rasterio pprint36 zipfile36 paramiko re2 pytest-shutil
+
+--------------------------------------------------------------------------------------------------------------------------
+# Import all the libraries
+
+
+
+
+
+from Flood_Module_ALOS2 import ALOS2_post
+
+
 
 4. Running Scripts
 
 The main script (Realtime-Sentinel1-Flood-Mapping.ipynb) runs in jupyter notebook environment and the Flood_OST_S1.py can be placed in the same directory as the main script, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). 
 Then you can import the Flood_OST_S1 module to the main script. Sentinel1Flood is the class for the processing of the Sentinel-1 ARD data for flood detection.
  
-    from Flood_OST_S1 import Sentinel1Flood
+    from Flood_Module_ALOS2 import ALOS2_pre_post
+    
+    from Flood_Module_ALOS2 import ALOS2_post
 
 # Methodology
 
-This below graph shows the method adopted in this approach
+This below graph shows the method adopted in this approach. (Pre-Post/Post only)
 
 <img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
 
