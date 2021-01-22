@@ -6,7 +6,7 @@ This script will give the user access to process ALOS-2 PALSAR-2 (Synthetic Aper
 
 
 # Functionality
-This flood mapping approach gives the user flood water area detection ALOS-2 PALSAR-2 data based on threshold technique and it also capable of getting data from Optemis system 
+This flood mapping approach gives the user to flood water area detection using ALOS-2 PALSAR-2 data based on threshold technique and it also capable of getting data from Optemis system 
 
 
 Sentinel Asia and Optemis System
