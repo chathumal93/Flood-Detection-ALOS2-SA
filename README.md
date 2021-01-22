@@ -6,14 +6,16 @@ This script will give the user access to process ALOS-2 PALSAR-2 (Synthetic Aper
 
 
 # Functionality
-This flood mapping approach gives the user flood (Water Area Detection) mapping using ALOS-2 PALSAR-2 data based on threshold technique.
+This flood mapping approach gives the user flood water area detection ALOS-2 PALSAR-2 data based on threshold technique and it also capable of getting data from Optemis system which is explained before.
 
 
 Sentinel Asia and Optemis System
 
-The Sentinel Asia (https://sentinel-asia.org/) is a voluntary basis initiative led by the Asia-Pacific Regional Space Agency Forum (APRSAF) to support disaster management activity in the Asia-Pacific region by applying the WEB-GIS technology and space based technology, such as earth observation satellites data. When a disaster occurrs, all eart h observation data (Specially ALOS-2 PALSAR-2 data) will be available to the Value-Adder Organization through this initiative. In that case all the satellite data will be provided for a system called Optemis (https://optemis.sentinel-asia.org/) which, used to share earth observation data and processed results which for Sentinel Asia Members.
-.
-This following script can be also used in processing ALOS-2 Data from the optemis system and process according the requirement. (Only post event data/ Both Pre and Post data)
+The Sentinel Asia (https://sentinel-asia.org/) is a voluntary basis initiative led by the Asia-Pacific Regional Space Agency Forum (APRSAF) to support disaster management activity Asia-Pacific region by applying the WEB-GIS technology and space-based technology, such as earth observation satellites data. When a disaster occurs, all earth observation data (Specially ALOS-2 PALSAR-2 data) will be available to the Value-Adder Organization through this initiative. In that case, all the satellite data will be provided for a system called Optemis (https://optemis.sentinel-asia.org/) which, is used to share earth observation data and processed results for Sentinel Asia Members.
+
+The following script can also be used to acquire ALOS-2 Data from the Optemis system and process it according to the requirement. (Only post-event data/ Both Pre and Post data)
+
+
 
 WhiteboxTools, and Orfeo toolbox were used in this script.
 
