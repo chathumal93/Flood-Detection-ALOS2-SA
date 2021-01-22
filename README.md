@@ -14,6 +14,8 @@ Sentinel Asia and Optemis System
 The Sentinel Asia (https://sentinel-asia.org/) is a voluntary basis initiative led by the Asia-Pacific Regional Space Agency Forum (APRSAF) to support disaster management activity Asia-Pacific region by applying the WEB-GIS technology and space-based technology, such as earth observation satellites data. When a disaster occurs, all earth observation data (Specially ALOS-2 PALSAR-2 data) will be available to the Value-Adder Organization through this initiative. In that case, all the satellite data will be provided for a system called Optemis (https://optemis.sentinel-asia.org/) which, is used to share earth observation data and processed results for Sentinel Asia Members.
 
 The following scripts can also be used to acquire ALOS-2 Data from the Optemis system and process it according to the requirement. (Only post-event data/ Both Pre and Post data)
+If the user dont have access to the system, they can input the ALOS-2 (in zip format) externally to the scripts and process. 
+More details are described in the main two scripts.
 
 Then the flood extraction is carried out according to the instruction of the Flood_Module_ALOS2.py file. This file includes the main processing steps such as change image generation, thresholding, majority filtering, and raster polygonization. (For both cases : Pre-Post/ Post only)
 
