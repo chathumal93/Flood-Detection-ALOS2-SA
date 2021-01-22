@@ -1,5 +1,5 @@
 # SA-Flood-Detection-ALOS2
-This script will provide you the access to process ALOS-2 Data and Delineate Flood Water.
+A Flood Mapping Approach ( Change Thresholding) Using ALOS-2 PALSAR-2 Synthetic Aperture Radar Data with Open Source Python libraries.
 
 # Objective 
 This script will give the user access to process ALOS-2 PALSAR-2 (Synthetic Aperture Radar) data to detect water areas after a disaster, especially a flood, typhoon, or storm.
