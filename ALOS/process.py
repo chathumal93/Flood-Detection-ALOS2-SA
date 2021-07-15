@@ -81,7 +81,7 @@ def resample(raster_path_list,upscale_factor,dst_crs,outpath):
     dst.close()
     # Remove unzipped files and carry out with CCRS images
     for item in raster_path_list:
-       os.remove(item)
+        os.remove(item)
     return img_path_list
 
 def mosaic(in_list,out_path): 
